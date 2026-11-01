@@ -1,0 +1,11 @@
+{
+  "id": 104,
+  "theme": "light",
+  "blocks": [
+    { "type": "hero", "variant": "article", "image": "media/sante-cover.jpg", "kicker": "Santé", "title": "Maison coloniale de santé", "credit": "« Maison d’aliénés », carte postale ancienne." },
+    { "type": "text", "dropcap": true, "html": "<p>Fondée en 1837 au bord de la rivière Roxelane, à l’initiative du docteur Devèze, la maison coloniale de santé est un hôpital psychiatrique. Il fonctionne comme les hospices de France et accueille aussi des pensionnaires étrangers, aux frais de leurs familles.</p><p>En 1902, elle compte environ deux cents malades. Deux médecins, un aumônier, quatre religieuses hospitalières et un gérant y travaillent.</p>" },
+    { "type": "gallery", "variant": "grid", "items": [ { "image": "media/sante-1.jpg", "caption": "Les ruines de la maison de santé, aujourd’hui." }, { "image": "media/sante-2.jpg", "caption": "Vue ancienne du quartier." }, { "image": "media/sante-3.jpg", "caption": "Une chaise de force, encore en place." } ] },
+    { "type": "text", "html": "<p>Les ruines s’étendent sur plus de 90 mètres le long de la rue Levassor. On y voit des rangées de cellules, chacune avec une porte et une fenêtre, des installations d’hydrothérapie et des chaises de force encore scellées dans le sol.</p><p>Ces vestiges, uniques en leur genre, témoignent d’une pratique médicale singulière pour l’époque. Ils complètent les autres lieux de soin de l’ancienne capitale : l’hôpital militaire, l’hospice civil et l’asile Bethléem.</p>" },
+    { "type": "info", "sources": [ { "label": "Monumentum, PA00105978", "url": "https://monumentum.fr/monument-historique/pa00105978/saint-pierre-maison-coloniale-de-sante" } ] }
+  ]
+}

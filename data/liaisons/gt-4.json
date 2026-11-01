@@ -1,0 +1,19 @@
+{
+  "id": "gt-4",
+  "theme": "light",
+  "title": "Vers le quartier du Fort",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-panorama-legende.jpg",
+      "kicker": "Liaison",
+      "title": "Vers le quartier du Fort",
+      "credit": "Panorama de Saint-Pierre avant 1902, légendé : église du Fort, hôpital, marché…"
+    },
+    {
+      "type": "text",
+      "html": "<p>Vous quittez le centre pour le quartier du Fort, le plus ancien de la ville. Il s’est formé autour du fort Saint-Pierre, où se trouvaient la case du gouverneur, un corps de garde et une première église.</p><p>En chemin, vous franchissez la Roxelane, la rivière qui sépare les quartiers. Sur ce panorama, repérez le clocher de l’église du Fort, votre prochaine étape.</p>"
+    }
+  ]
+}

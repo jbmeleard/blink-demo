@@ -1,0 +1,13 @@
+{
+  "id": 102,
+  "theme": "light",
+  "blocks": [
+    { "type": "hero", "variant": "article", "image": "media/genie-cover.jpg", "kicker": "Bâtiment administratif", "title": "Bureau du Génie et des Ponts et Chaussées", "credit": "Les terrasses aujourd’hui." },
+    { "type": "text", "dropcap": true, "html": "<p>À l’extrémité est de la rue Levassor, dans le quartier du Fort, s’élevait en 1810 une maison privée bâtie sur une partie de l’ancienne habitation Larochetière. Vendu à la colonie en 1851, le terrain accueille d’abord l’hospice civil. En 1855, il est échangé contre une ancienne caserne et devient le siège du Génie et des Ponts et Chaussées.</p>" },
+    { "type": "figure", "image": "media/genie-1.jpg", "caption": "Les terrasses et le bâtiment principal, aujourd’hui." },
+    { "type": "text", "html": "<p>Un plan de 1868 décrit un ensemble étagé sur trois terrasses au flanc du morne. En haut, le bâtiment principal à un étage domine un escalier monumental. Une double cascade tombe dans un bassin, et deux grands bassins circulaires ornent la terrasse intermédiaire. En bas, un poste de garde et des écuries se font face.</p><p>L’eau y est partout : cascades, fontaines, jets d’agrément, et même l’eau courante à l’étage. C’était l’une des signatures de l’ancien Saint-Pierre.</p>" },
+    { "type": "gallery", "variant": "grid", "items": [ { "image": "media/genie-2.jpg", "caption": "Vue d’ensemble des terrasses." }, { "image": "media/genie-3.jpg", "caption": "Les vestiges du site." } ] },
+    { "type": "text", "html": "<p>L’éruption n’a laissé que les terrasses, le mur de soutènement et des pans de murs. Fouillé depuis 1988, le site est devenu en 1989 un chantier-école d’archéologie historique.</p>" },
+    { "type": "info", "sources": [ { "label": "Monumentum, PA00105976", "url": "https://monumentum.fr/monument-historique/pa00105976" } ] }
+  ]
+}

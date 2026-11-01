@@ -1,0 +1,19 @@
+{
+  "id": "m8-1",
+  "theme": "light",
+  "title": "Jeudi de l’Ascension",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-rade.jpg",
+      "kicker": "Liaison",
+      "title": "Jeudi de l’Ascension",
+      "credit": "Saint-Pierre et sa rade, peu avant l’éruption. Carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>Le 8 mai 1902 est le jeudi de l’Ascension. Ce matin-là, l’église du Fort accueille des dizaines de premiers communiants.</p><p>Depuis plusieurs semaines, la montagne Pelée gronde : pluies de cendres, odeurs de soufre, coulées de boue. Le 5 mai, une coulée engloutit l’usine Guérin, au nord de la ville.</p><p>Peu après 8 heures, la nuée ardente dévale la pente et atteint d’abord le quartier du Fort. Suivez sa trajectoire vers le sud.</p>"
+    }
+  ]
+}

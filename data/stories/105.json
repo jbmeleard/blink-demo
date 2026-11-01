@@ -1,0 +1,13 @@
+{
+  "id": 105,
+  "theme": "light",
+  "blocks": [
+    { "type": "hero", "variant": "article", "image": "media/theatre-cover.jpg", "kicker": "Spectacle", "title": "Le théâtre de Saint-Pierre", "credit": "Les ruines du théâtre après 1902." },
+    { "type": "text", "dropcap": true, "html": "<p>Inauguré le 16 décembre 1786, le théâtre impressionne le médecin danois Paul Erdmann Isert. Celui-ci le juge supérieur « pour la grandeur et le goût » aux plus renommés d’Europe. Endommagé par les cyclones, il est restauré en 1817, remanié en 1831-1832, puis rouvert en décembre 1890.</p>" },
+    { "type": "quote", "text": "Ce magnifique théâtre surpasse pour la grandeur et le goût les bâtiments en ce genre les plus renommés en Europe.", "cite": "Paul Erdmann Isert, 1787" },
+    { "type": "text", "html": "<p>Opéras, ballets et troupes internationales s’y produisent, de Beaumarchais à Sedaine, aux côtés d’auteurs locaux. La salle reflète aussi la société coloniale : une rangée de loges est réservée aux gens de couleur libres, et les esclaves occupent le dernier pourtour.</p>" },
+    { "type": "gallery", "variant": "grid", "items": [ { "image": "media/theatre-1.jpg", "caption": "Les escaliers en fer à cheval et la fontaine, aujourd’hui." }, { "image": "media/theatre-2.jpg", "caption": "Les vestiges de la salle." }, { "image": "media/theatre-3.jpg", "caption": "Le théâtre avant le 8 mai 1902, carte postale." } ] },
+    { "type": "text", "html": "<p>Le 8 mai 1902, la nuée ardente le détruit. Il en reste les volées de marches depuis la rue Victor-Hugo, la fontaine aux deux dauphins de bronze, le vestibule dallé de marbre noir et blanc, le parterre en demi-cercle et la fosse d’orchestre.</p>" },
+    { "type": "info", "sources": [ { "label": "Monumentum, PA00105981", "url": "https://monumentum.fr/monument-historique/pa00105981" } ] }
+  ]
+}

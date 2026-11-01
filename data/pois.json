@@ -1,0 +1,182 @@
+{
+  "city": {
+    "name": "Saint-Pierre",
+    "region": "Martinique",
+    "center": [
+      14.7455,
+      -61.1762
+    ],
+    "zoom": 16
+  },
+  "typologies": [
+    {
+      "id": "religieux",
+      "label": "Édifice religieux",
+      "color": "#DCC8E6"
+    },
+    {
+      "id": "administratif",
+      "label": "Bâtiment administratif",
+      "color": "#C4D6EA"
+    },
+    {
+      "id": "sante",
+      "label": "Santé",
+      "color": "#BFE3D8"
+    },
+    {
+      "id": "spectacle",
+      "label": "Spectacle",
+      "color": "#F3C6B8"
+    },
+    {
+      "id": "negoce",
+      "label": "Négoce & port",
+      "color": "#EED9A8"
+    }
+  ],
+  "pois": [
+    {
+      "id": 101,
+      "title": "Église du Mouillage",
+      "fullTitle": "Ancienne cathédrale Notre-Dame-de-l’Assomption, actuellement église du Mouillage",
+      "typology": "religieux",
+      "tags": [
+        "1902",
+        "enfant"
+      ],
+      "address": "5550 F rue Dupuy, 97250 Saint-Pierre",
+      "lat": 14.7404581,
+      "lng": -61.1754497,
+      "radius": 120,
+      "contentFromMap": true,
+      "contentType": "onepage-anime",
+      "cover": "media/mouillage-1890.jpg",
+      "excerpt": "Cathédrale dès 1851, presque entièrement détruite le 8 mai 1902, puis rebâtie en « ciment armé » sur les vestiges de sa façade.",
+      "story": "data/stories/101.json",
+      "audio": "data/audio/101.json"
+    },
+    {
+      "id": 102,
+      "title": "Bureau du Génie et des Ponts et Chaussées",
+      "typology": "administratif",
+      "tags": [
+        "1902"
+      ],
+      "address": "5334 rue Levassor, 97250 Saint-Pierre",
+      "lat": 14.7500055,
+      "lng": -61.1732199,
+      "radius": 100,
+      "contentFromMap": false,
+      "contentType": "onepage-multimedia",
+      "cover": "media/genie-cover.jpg",
+      "excerpt": "Un ensemble étagé sur trois terrasses au flanc du morne, où l’eau jaillissait en cascades et en bassins.",
+      "story": "data/stories/102.json"
+    },
+    {
+      "id": 103,
+      "title": "Église du Fort",
+      "typology": "religieux",
+      "tags": [
+        "1902",
+        "enfant"
+      ],
+      "address": "5415 rue T. M. Baude, 97250 Saint-Pierre",
+      "lat": 14.7505866,
+      "lng": -61.1787154,
+      "radius": 100,
+      "contentFromMap": false,
+      "contentType": "onepage-multimedia",
+      "cover": "media/fort-cover.jpg",
+      "excerpt": "La plus ancienne paroisse de Saint-Pierre, citée dès 1640. Le 8 mai 1902, elle accueillait des dizaines de premiers communiants.",
+      "story": "data/stories/103.json"
+    },
+    {
+      "id": 104,
+      "title": "Maison coloniale de santé",
+      "typology": "sante",
+      "tags": [
+        "1902"
+      ],
+      "address": "Rue Levassor, 97250 Saint-Pierre",
+      "lat": 14.7494953,
+      "lng": -61.1733336,
+      "radius": 100,
+      "contentFromMap": false,
+      "contentType": "onepage-multimedia",
+      "cover": "media/sante-cover.jpg",
+      "excerpt": "Hôpital psychiatrique fondé en 1837 au bord de la Roxelane, dont les cellules et les chaises de force sont encore visibles.",
+      "story": "data/stories/104.json"
+    },
+    {
+      "id": 105,
+      "title": "Théâtre",
+      "typology": "spectacle",
+      "tags": [
+        "1902",
+        "enfant"
+      ],
+      "address": "5080 F rue Victor Hugo, 97250 Saint-Pierre",
+      "lat": 14.7468698,
+      "lng": -61.1760076,
+      "radius": 100,
+      "contentFromMap": true,
+      "contentType": "onepage-multimedia",
+      "cover": "media/theatre-cover.jpg",
+      "excerpt": "Inauguré en 1786, présenté comme le plus bel édifice du genre des Antilles. Il n’en reste que ses escaliers et sa fontaine.",
+      "story": "data/stories/105.json"
+    },
+    {
+      "id": 106,
+      "title": "Chambre de commerce",
+      "typology": "negoce",
+      "tags": [],
+      "address": "Place Bertin, 97250 Saint-Pierre",
+      "lat": 14.7410731,
+      "lng": -61.1761074,
+      "radius": 100,
+      "contentFromMap": false,
+      "contentType": "onepage-multimedia",
+      "cover": "media/commerce-cover.jpg",
+      "excerpt": "Sur la place Bertin, au cœur du port qui faisait de Saint-Pierre la capitale économique de la Martinique.",
+      "story": "data/stories/106.json"
+    },
+    {
+      "id": 107,
+      "title": "Anciens entrepôts du Figuier",
+      "typology": "negoce",
+      "tags": [
+        "1902"
+      ],
+      "address": "5262 rue Bouillé, 97250 Saint-Pierre",
+      "lat": 14.745412,
+      "lng": -61.1764171,
+      "radius": 100,
+      "contentFromMap": false,
+      "contentType": "onepage-multimedia",
+      "cover": "media/entrepots-cover.jpg",
+      "excerpt": "Des locaux adossés au rempart où l’on entreposait et vendait les marchandises débarquées place Bertin.",
+      "story": "data/stories/107.json"
+    },
+    {
+      "id": 201,
+      "title": "Cathédrale d’Amiens",
+      "fullTitle": "Cathédrale Notre-Dame d’Amiens",
+      "typology": "religieux",
+      "tags": [
+        "test",
+        "3d"
+      ],
+      "address": "30 place Notre-Dame, 80000 Amiens",
+      "lat": 49.89466,
+      "lng": 2.30222,
+      "radius": 150,
+      "contentFromMap": true,
+      "contentType": "onepage-anime",
+      "cover": "media/amiens/cover.jpg",
+      "excerpt": "Comment bâtit-on la plus vaste cathédrale de France ? Récit d’un chantier de trois siècles, en 3D.",
+      "story": "data/stories/201.json",
+      "audio": "data/audio/201.json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gt-5",
+  "theme": "light",
+  "title": "Le long de la Roxelane",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-vue-generale.jpg",
+      "kicker": "Liaison",
+      "title": "Le long de la Roxelane",
+      "credit": "Saint-Pierre de la Martinique, vue générale. Carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>Remontez vers la Roxelane. L’eau est partout dans l’ancien Saint-Pierre : fontaines, bassins, canaux et jets d’eau descendaient du morne jusqu’à la mer.</p><p>Au bord de la rivière, en 1837, le docteur Devèze fonde la maison coloniale de santé. C’était un hôpital psychiatrique aux installations d’hydrothérapie rares pour l’époque.</p>"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m8-3",
+  "theme": "light",
+  "title": "La rade en flammes",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-vue-generale.jpg",
+      "kicker": "Liaison",
+      "title": "La rade en flammes",
+      "credit": "La rade de Saint-Pierre, où mouillaient les navires de commerce. Carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>Ce matin-là, de nombreux navires sont au mouillage devant la ville. La nuée les atteint en quelques instants : la plupart chavirent ou brûlent, et seuls quelques-uns parviennent à s’échapper.</p><p>Longez le rivage vers le sud. Au bout du chemin, la cathédrale du Mouillage, dont seul le premier niveau de la façade a résisté.</p>"
+    }
+  ]
+}

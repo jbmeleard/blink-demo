@@ -1,0 +1,19 @@
+{
+  "id": "m8-2",
+  "theme": "light",
+  "title": "Le cachot de Cyparis",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/theatre-2.jpg",
+      "kicker": "Liaison",
+      "title": "Le cachot de Cyparis",
+      "credit": "Les vestiges du théâtre, voisin de la prison."
+    },
+    {
+      "type": "text",
+      "html": "<p>Juste à côté du théâtre se trouvait la prison. On y voit encore une petite cellule de pierre, dite cachot de Cyparis.</p><p>Le prisonnier qui y était enfermé a survécu à la nuée, gravement brûlé, protégé par les murs épais et l’étroite ouverture de sa cellule. Il est l’un des très rares survivants de la ville.</p><p>Poursuivez vers le rivage, jusqu’aux entrepôts du Figuier.</p>"
+    }
+  ]
+}

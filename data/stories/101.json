@@ -1,0 +1,282 @@
+{
+  "id": 101,
+  "theme": "dark",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/mouillage-1890.jpg",
+      "focus": [
+        0.5,
+        0.35
+      ],
+      "kicker": "Saint-Pierre · Martinique",
+      "title": "La cathédrale du Mouillage",
+      "subtitle": "Deux siècles et demi de ferveur, une matinée de feu, puis une renaissance en ciment armé.",
+      "credit": "La cathédrale à la fin du XIXe siècle. Photographie ancienne."
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Vous êtes devant l’ancienne cathédrale Notre-Dame-de-l’Assomption, aujourd’hui église du Mouillage. Le 8&nbsp;mai 1902, la nuée ardente de la montagne Pelée n’a laissé debout que le premier niveau de sa façade, le sol et une partie du parvis.</p><p>L’édifice qui se dresse devant vous a été rebâti dans les années 1920 sur ces vestiges. Faites défiler la page pour remonter le temps.</p>"
+    },
+    {
+      "type": "chapter",
+      "kicker": "1654 – 1885",
+      "title": "D’une chapelle à une cathédrale"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1654",
+          "text": "Première mention d’une chapelle au Mouillage, liée au monastère dominicain fondé par le père Boulogne. Elle attire vite de nombreux fidèles."
+        },
+        {
+          "year": "1667",
+          "text": "Un bombardement anglais de la rade ruine la chapelle et son clocher."
+        },
+        {
+          "year": "1675",
+          "text": "Les officiers et les matelots de la flotte du roi sont sollicités pour la reconstruire."
+        },
+        {
+          "year": "1816",
+          "text": "Indignée de l’absence de clocher, l’assemblée paroissiale en vote enfin la construction."
+        },
+        {
+          "year": "1851",
+          "text": "L’église devient cathédrale avec l’arrivée de Mgr Le Herpeur, premier évêque de la Martinique."
+        },
+        {
+          "year": "1855",
+          "text": "Devenue trop étroite, elle est agrandie jusqu’en décembre 1856."
+        },
+        {
+          "year": "1885",
+          "text": "Les deux tourelles et le clocher sont élevés. La façade ne changera plus jusqu’en 1902."
+        }
+      ]
+    },
+    {
+      "type": "scrolly",
+      "image": "media/mouillage-1890.jpg",
+      "steps": [
+        {
+          "view": {
+            "x": 0.5,
+            "y": 0.5,
+            "scale": 1
+          },
+          "html": "<p>Voici la cathédrale telle que la connaissent les Pierrotins à la fin du XIXe siècle : une façade à deux niveaux, rythmée de pilastres et de corniches.</p>"
+        },
+        {
+          "view": {
+            "x": 0.27,
+            "y": 0.2,
+            "scale": 2.1
+          },
+          "marks": [
+            {
+              "x": 0.256,
+              "y": 0.16,
+              "label": "Tourelle, 1885"
+            }
+          ],
+          "html": "<p>Les deux tourelles et le clocher sont ajoutés en 1885, à l’initiative du père Cudennec, curé de la cathédrale.</p>"
+        },
+        {
+          "view": {
+            "x": 0.42,
+            "y": 0.62,
+            "scale": 2.2
+          },
+          "marks": [
+            {
+              "x": 0.41,
+              "y": 0.59,
+              "label": "Rosace"
+            },
+            {
+              "x": 0.29,
+              "y": 0.6,
+              "label": "Niche"
+            }
+          ],
+          "html": "<p>Au centre, l’avant-corps porte une rosace et des niches à statues. La porte principale en plein cintre est encadrée de pilastres à chapiteaux toscans.</p>"
+        },
+        {
+          "view": {
+            "x": 0.4,
+            "y": 0.86,
+            "scale": 1.9
+          },
+          "marks": [
+            {
+              "x": 0.41,
+              "y": 0.79,
+              "label": "Porte principale"
+            },
+            {
+              "x": 0.36,
+              "y": 0.9,
+              "label": "Parvis"
+            }
+          ],
+          "html": "<p>Retenez ce rez-de-chaussée et ces marches : ce sont eux qui résisteront à l’éruption.</p>"
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "image": "media/mouillage-parvis.jpg",
+      "size": "narrow",
+      "caption": "Un jour d’affluence sur le parvis. Carte postale ancienne."
+    },
+    {
+      "type": "chapter",
+      "kicker": "8 mai 1902",
+      "title": "La nuée ardente"
+    },
+    {
+      "type": "sequence",
+      "generator": "eruption",
+      "from": "media/mouillage-1890.jpg",
+      "to": "media/mouillage-ruines-facade.jpg",
+      "fromFocus": [
+        0.45,
+        0.6
+      ],
+      "toFocus": [
+        0.45,
+        0.55
+      ],
+      "steps": [
+        {
+          "html": "<p>Le matin du 8&nbsp;mai 1902, peu après 8&nbsp;heures, la montagne Pelée libère une nuée ardente : un nuage de gaz brûlants, de cendres et de blocs qui dévale vers la ville.</p>"
+        },
+        {
+          "html": "<p>En quelques minutes, Saint-Pierre est anéantie. On estime à près de 28&nbsp;000 le nombre de victimes.</p>"
+        },
+        {
+          "html": "<p>Quand la cendre retombe, il ne reste de la cathédrale que le premier niveau de sa façade, le sol et une partie du parvis.</p>"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Les ruines, sur les cartes postales",
+      "items": [
+        {
+          "image": "media/mouillage-ruines-carte.jpg",
+          "caption": "La façade éventrée, au pied du morne."
+        },
+        {
+          "image": "media/mouillage-ruines-nef.jpg",
+          "caption": "Les arcades de la nef, effondrées sur leurs charpentes."
+        },
+        {
+          "image": "media/mouillage-clocher.jpg",
+          "caption": "Le clocher, seul debout au milieu des décombres. Gravure d’époque."
+        },
+        {
+          "image": "media/mouillage-ruines-montagne.jpg",
+          "caption": "Les murs restants face aux pentes dévastées. Phot. Thomas."
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "image": "media/mouillage-cloche.jpg",
+      "size": "narrow",
+      "caption": "Une cloche fendue par l’éruption, rapatriée du Vatican en 1981. Longtemps attribuée à la cathédrale, elle provient en réalité de l’église Saint-Étienne du Centre. Elle est exposée au musée Frank A. Perret."
+    },
+    {
+      "type": "quote",
+      "text": "Le maître-autel en marbre blanc, emporté à Paris au musée de Cluny, ne revient à la Martinique qu’en 1939.",
+      "cite": "Le bénitier, lui, est toujours conservé à l’église Saint-Laurent, à Paris."
+    },
+    {
+      "type": "chapter",
+      "kicker": "1923 – 1950",
+      "title": "Renaître sur les vestiges"
+    },
+    {
+      "type": "text",
+      "html": "<p>Sous l’impulsion de Mgr Lequien, les travaux commencent dès 1923, sous la direction de l’architecte Touin. Un comité pour la reconstruction est créé le 14&nbsp;mars 1924. Présidé par Victor Depaz, il rassemble les fonds de nombreux donateurs.</p><p>La cathédrale est rebâtie sur les bases de l’ancienne, principalement entre 1924 et 1926. En 1925, elle reçoit de nouvelles cloches.</p>"
+    },
+    {
+      "type": "scrolly",
+      "image": "media/mouillage-1929.jpg",
+      "steps": [
+        {
+          "view": {
+            "x": 0.5,
+            "y": 0.5,
+            "scale": 1
+          },
+          "html": "<p>1929 : le chantier n’est pas terminé. Cette année-là, une nouvelle série d’éruptions interrompt les travaux jusqu’en 1932.</p>"
+        },
+        {
+          "view": {
+            "x": 0.62,
+            "y": 0.28,
+            "scale": 2
+          },
+          "marks": [
+            {
+              "x": 0.6,
+              "y": 0.22,
+              "label": "Échafaudages"
+            }
+          ],
+          "html": "<p>Au sommet, on distingue encore les perches des échafaudages.</p>"
+        },
+        {
+          "view": {
+            "x": 0.38,
+            "y": 0.72,
+            "scale": 1.8
+          },
+          "marks": [
+            {
+              "x": 0.34,
+              "y": 0.75,
+              "label": "Niveau d’origine"
+            }
+          ],
+          "html": "<p>Sous son apparence de pierre, la structure est en « ciment armé », selon les plans de l’ingénieur Croquet. C’est l’une des premières constructions en béton armé de la Martinique.</p>"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "image": "media/mouillage-elevation.jpg",
+      "split": true,
+      "beforeLabel": "Photographie, fin XIXe",
+      "afterLabel": "Dessin d’élévation",
+      "caption": "Faites défiler la page pour passer de la photographie au dessin de la façade."
+    },
+    {
+      "type": "text",
+      "html": "<p>Le clocher n’est achevé qu’en 1950. L’intérieur est réaménagé en 1956, puis embelli en 1965.</p><p>Aujourd’hui, l’église est tournée vers le nord. Elle n’a qu’un seul vaisseau, couvert d’une voûte en berceau, et son chœur est surélevé de deux marches.</p>"
+    },
+    {
+      "type": "outro",
+      "title": "Avant de repartir, levez les yeux vers la façade.",
+      "text": "Son premier niveau est celui que la nuée ardente a épargné."
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Monumentum, PA00105950",
+          "url": "https://monumentum.fr/monument-historique/pa00105950/saint-pierre-ancienne-cathedrale-notre-dame-de-lassomption-actuellement-eglise-du-mouillage"
+        },
+        {
+          "label": "Wikipédia, Cathédrale Notre-Dame-de-l’Assomption de Saint-Pierre",
+          "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame-de-l'Assomption_de_Saint-Pierre_de_la_Martinique"
+        }
+      ]
+    }
+  ]
+}

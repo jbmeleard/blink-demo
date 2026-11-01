@@ -1,0 +1,10 @@
+{
+  "id": 107,
+  "theme": "light",
+  "blocks": [
+    { "type": "hero", "variant": "article", "image": "media/entrepots-cover.jpg", "kicker": "Négoce & port", "title": "Les anciens entrepôts du Figuier", "credit": "Les locaux adossés au rempart." },
+    { "type": "text", "dropcap": true, "html": "<p>À l’origine, ce sont peut-être des logements militaires. Au XVIIIe siècle, l’essor du commerce les transforme en locaux pour stocker et vendre les marchandises venues de la place Bertin.</p><p>Ces maisons mitoyennes sont adossées au rempart, au pied de la batterie d’Enotz, et reliées à elle par deux escaliers, dont la « calle des Marches ».</p>" },
+    { "type": "text", "html": "<p>Le souffle de l’éruption a abattu presque toutes les façades. Restent les sols dallés de terre cuite, de grès, d’ardoise ou de marbre, les traces des poteaux qui soutenaient les étages, et à l’arrière, de petits fours, des bassins et des niches.</p>" },
+    { "type": "info", "sources": [ { "label": "Monumentum, PA00105952", "url": "https://monumentum.fr/monument-historique/pa00105952" } ] }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gt-6",
+  "theme": "light",
+  "title": "Rue Levassor",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/sante-2.jpg",
+      "kicker": "Liaison",
+      "title": "Rue Levassor",
+      "credit": "Le quartier de la rue Levassor avant 1902. Vue ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>La rue Levassor réunissait plusieurs institutions de la colonie. Votre dernière étape est voisine : le bureau du Génie et des Ponts et Chaussées.</p><p>Le terrain abrita d’abord l’hospice civil de Saint-Pierre, en 1851, avant d’être confié au Génie en 1855. Les deux sites ont donc eu, un temps, la même vocation de soin.</p>"
+    }
+  ]
+}

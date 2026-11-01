@@ -1,0 +1,247 @@
+{
+  "theme": "dark",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/amiens/hero-facade.jpg",
+      "focus": [0.5, 0.5],
+      "shade": "strong",
+      "kicker": "Amiens · XIIIᵉ siècle",
+      "title": "Bâtir une cathédrale",
+      "subtitle": "Comment une ville de 26 000 habitants a élevé le plus vaste édifice gothique de France, en cinquante ans pour l’essentiel.",
+      "credit": "Restitution 3D : Myles Zhang, avec Stephen Murray (Columbia University)"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>En 1218, un incendie ravage la cathédrale romane d’Amiens. La ville ne manque pourtant pas de raisons de rebâtir : depuis 1206, elle conserve une relique rapportée de Constantinople, le chef de saint Jean-Baptiste, qui attire les pèlerins de toute l’Europe.</p><p>En 1220, l’évêque Évrard de Fouilloy pose la première pierre d’un projet démesuré. Le maître d’œuvre s’appelle Robert de Luzarches. Il ne verra pas la fin du chantier : trois générations d’architectes vont se succéder sur le même plan.</p>"
+    },
+    { "type": "chapter", "kicker": "1220 – 1270", "title": "Le chantier, étape par étape" },
+    {
+      "type": "sequence",
+      "frames": [
+        "media/amiens/chantier-1220.jpg",
+        "media/amiens/chantier-1225.jpg",
+        "media/amiens/chantier-1235.jpg",
+        "media/amiens/chantier-1245.jpg",
+        "media/amiens/chantier-1255.jpg",
+        "media/amiens/chantier-1265.jpg"
+      ],
+      "crossfade": true,
+      "fit": "contain",
+      "zoom": 1.4,
+      "labels": ["v. 1220", "v. 1225", "v. 1235", "v. 1245", "v. 1255", "v. 1265"],
+      "credit": "Images : Myles Zhang",
+      "steps": [
+        { "html": "<p><strong>Vers 1220.</strong> On commence par le sol : les fondations et le bas des murs dessinent déjà, à plat, toute la future cathédrale.</p>" },
+        { "html": "<p><strong>1225–1230.</strong> Robert de Luzarches, assisté de Thomas de Cormont, élève d’abord le bas-côté sud de la nef, pour pouvoir y célébrer la messe au plus vite.</p>" },
+        { "html": "<p><strong>1230–1235.</strong> Le bas-côté nord suit. La nef a désormais ses deux flancs, mais pas encore de toit au centre.</p>" },
+        { "html": "<p><strong>Années 1240.</strong> Thomas de Cormont monte les parties hautes de la nef et les beffrois des tours de façade.</p>" },
+        { "html": "<p><strong>Vers 1250.</strong> À sa mort, la nef est achevée, le haut du transept commencé et le chœur tracé au sol.</p>" },
+        { "html": "<p><strong>1250–1270.</strong> Son fils Renaud de Cormont termine le transept et le chœur. La grande verrière axiale est posée en 1269 : l’essentiel est debout.</p>" }
+      ]
+    },
+    {
+      "type": "timeline",
+      "items": [
+        { "year": "1206", "text": "Arrivée à Amiens du chef de saint Jean-Baptiste, rapporté de Constantinople." },
+        { "year": "1218", "text": "L’incendie de la cathédrale romane." },
+        { "year": "1220", "text": "Première pierre, sous l’évêque Évrard de Fouilloy. Robert de Luzarches dirige le chantier." },
+        { "year": "1240–1250", "text": "Thomas de Cormont élève les parties hautes de la nef." },
+        { "year": "1250–1270", "text": "Renaud de Cormont achève le transept et le chœur." },
+        { "year": "1280–1310", "text": "La grande charpente est posée, d’est en ouest." },
+        { "year": "1288", "text": "Le labyrinthe est tracé dans le dallage de la nef." },
+        { "year": "1360–1400", "text": "Construction des tours de la façade ouest." },
+        { "year": "1528", "text": "La foudre détruit l’ancienne flèche ; la nouvelle est achevée vers 1533." },
+        { "year": "1981", "text": "Inscription au patrimoine mondial de l’Unesco." }
+      ]
+    },
+    { "type": "chapter", "kicker": "En 3D", "title": "Anatomie d’une nef" },
+    {
+      "type": "text",
+      "html": "<p>Pour comprendre comment tient un tel édifice, isolons une tranche de la nef : deux travées, avec leurs bas-côtés, leurs contreforts et leur charpente. Faites défiler, la maquette se reconstruit sous vos yeux.</p>"
+    },
+    {
+      "type": "model",
+      "src": "media/amiens/nef.glb",
+      "fallback": "media/amiens/maquette-coupe.jpg",
+      "credit": "Modèle 3D : Myles Zhang",
+      "steps": [
+        {
+          "html": "<p>Voici une tranche de la nef d’Amiens, coupée net. Au centre, le grand vaisseau ; de part et d’autre, les bas-côtés plus bas ; à l’extérieur, les culées et les arcs-boutants.</p>",
+          "view": { "pos": [15.5, 10, 15], "look": [5.45, 6.5, -2.3] },
+          "marks": [
+            { "label": "Nef centrale", "at": [5.45, 7.5, -0.2] },
+            { "label": "Bas-côté", "at": [8.6, 2.6, -0.2] },
+            { "label": "Arc-boutant", "at": [9.2, 9.8, -1.2] }
+          ]
+        },
+        {
+          "html": "<p><strong>Les fondations.</strong> Avant toute chose, on creuse et on maçonne sous le futur dallage. Rien ne se voit encore, mais tout le plan est fixé.</p>",
+          "view": { "pos": [14, 6.5, 14], "look": [5.45, 3, -2.3] },
+          "build": 0.03
+        },
+        {
+          "html": "<p><strong>Les bas-côtés d’abord.</strong> Les piliers et les voûtes des collatéraux montent en premier : ils servent d’échafaudage et de contrebutement aux parties hautes à venir.</p>",
+          "view": { "pos": [14, 7.5, 14], "look": [5.45, 4, -2.3] },
+          "build": 0.38,
+          "marks": [{ "label": "Voûtes des bas-côtés", "at": [8.6, 5.5, -2.3] }]
+        },
+        {
+          "html": "<p><strong>Puis les parties hautes.</strong> Le vaisseau central grimpe jusqu’à 42,30 m. Les arcs-boutants sont lancés en même temps que les voûtes, pour en recevoir la poussée.</p>",
+          "view": { "pos": [15.5, 10, 15], "look": [5.45, 6.5, -2.3] },
+          "build": 0.76
+        },
+        {
+          "html": "<p><strong>Enfin, le toit.</strong> La charpente et sa couverture coiffent l’ensemble. À Amiens, elles sont posées entre 1280 et 1310, d’est en ouest.</p>",
+          "view": { "pos": [16, 12, 16], "look": [5.45, 7.5, -2.3] },
+          "build": 1
+        },
+        {
+          "html": "<p><strong>Levez les yeux.</strong> Sous la voûte, 42,30 m de vide : la hauteur d’un immeuble de quatorze étages. Les nervures des croisées d’ogives concentrent le poids sur quelques points.</p>",
+          "view": { "pos": [5.45, 1.0, 1.5], "look": [5.45, 11, -3.5], "fov": 60 },
+          "marks": [{ "label": "Clé de voûte · 42,30 m", "at": [5.45, 11.45, -2.3] }]
+        },
+        {
+          "html": "<p><strong>Un mur de lumière.</strong> Comme la voûte repose sur des piliers, le mur ne porte presque plus rien. On peut l’ouvrir de grandes fenêtres hautes, la claire-voie.</p>",
+          "view": { "pos": [4.0, 5.5, 0.5], "look": [8.5, 9, -3], "fov": 50 },
+          "highlight": ["Window_Clerestory"],
+          "marks": [{ "label": "Claire-voie", "at": [7.35, 9.5, -1.4] }]
+        },
+        {
+          "html": "<p><strong>Les arcs-boutants.</strong> Dehors, ces bras de pierre récupèrent la poussée des voûtes et la descendent jusqu’aux culées. Sans eux, les murs s’écarteraient.</p>",
+          "view": { "pos": [-6, 9, 6], "look": [3, 8, -2.3] },
+          "highlight": ["Buttress_Flying"],
+          "marks": [{ "label": "Arc-boutant", "at": [2.2, 10.3, -0.5] }]
+        },
+        {
+          "html": "<p><strong>La « forêt ».</strong> Sous les ardoises, des centaines de poutres de chêne forment la charpente. Elle protège les voûtes de la pluie, sans peser sur elles.</p>",
+          "view": { "pos": [14, 17, 8], "look": [5.4, 12.5, -2.3] },
+          "hide": ["Roof"],
+          "highlight": ["Roof_Truss"],
+          "marks": [{ "label": "Charpente", "at": [5.45, 13.6, -1.2] }]
+        },
+        {
+          "html": "<p><strong>Le labyrinthe.</strong> Retirons les voûtes et regardons le sol. Tracé en 1288 dans le dallage de la nef, il porte en son centre les noms de l’évêque et des trois maîtres d’œuvre : la signature des bâtisseurs.</p>",
+          "view": { "pos": [5.45, 9, 1.5], "look": [5.45, 0, -2.3] },
+          "build": 0.21,
+          "marks": [{ "label": "Labyrinthe · 1288", "at": [5.45, 0, -2.31] }]
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "image": "media/amiens/labyrinthe.png",
+      "size": "narrow",
+      "caption": "Le labyrinthe octogonal de la nef. L’original, arraché au XIXᵉ siècle, a été refait à l’identique. Dessin : Myles Zhang."
+    },
+    { "type": "chapter", "kicker": "Lumière et couleur", "title": "Ce que voyaient les pèlerins" },
+    {
+      "type": "text",
+      "html": "<p>Amiens a perdu presque tous ses vitraux d’origine. La restitution numérique permet de les replacer, et de retrouver l’effet voulu par les bâtisseurs : une forêt de piliers baignée de lumière colorée.</p>"
+    },
+    {
+      "type": "gallery",
+      "title": "Promenade dans la cathédrale restituée",
+      "items": [
+        { "image": "media/amiens/nef-1.jpg", "caption": "La nef, vers le chœur." },
+        { "image": "media/amiens/rose.jpg", "caption": "La rose du transept." },
+        { "image": "media/amiens/vitraux.jpg", "caption": "Les verrières hautes, restituées." },
+        { "image": "media/amiens/choeur.jpg", "caption": "Le chœur et sa clôture." },
+        { "image": "media/amiens/cloture.jpg", "caption": "Au pied de la croisée." },
+        { "image": "media/amiens/chevet.jpg", "caption": "Les chapelles du chevet." }
+      ]
+    },
+    {
+      "type": "compare",
+      "before": "media/amiens/facade-nb.jpg",
+      "after": "media/amiens/facade-couleur.jpg",
+      "beforeLabel": "Pierre nue",
+      "afterLabel": "Peinte",
+      "marks": [
+        { "label": "Au Moyen Âge, la cathédrale était peinte.", "x": 0.13, "y": 0.47 },
+        { "label": "Le nettoyage au laser des portails, dans les années 1990, a révélé des traces de ces couleurs.", "x": 0.12, "y": 0.74 }
+      ],
+      "credit": "Dessins : Myles Zhang"
+    },
+    {
+      "type": "quote",
+      "text": "La cathédrale d’Amiens est l’église ogivale par excellence.",
+      "cite": "Eugène Viollet-le-Duc, Dictionnaire raisonné de l’architecture"
+    },
+    { "type": "chapter", "kicker": "Voir au travers", "title": "Ouvrir les murs" },
+    {
+      "type": "sequence",
+      "frames": ["media/amiens/facade-sud.jpg", "media/amiens/facade-sud-coupe.jpg"],
+      "crossfade": true,
+      "fit": "contain",
+      "zoom": 1.25,
+      "credit": "Images : Myles Zhang",
+      "steps": [
+        { "html": "<p>La façade sud, telle qu’on la voit depuis la place. Faites défiler : le mur va s’effacer.</p>" },
+        { "html": "<p>Derrière la pierre apparaît l’ossature : les voûtes alignées, les piliers, et tout en haut la charpente de bois.</p>" },
+        { "html": "<p>Vue en coupe, la cathédrale se lit comme une machine : chaque poussée est reprise, descendue, équilibrée jusqu’au sol.</p>" }
+      ]
+    },
+    {
+      "type": "scrolly",
+      "image": "media/amiens/plan.jpg",
+      "steps": [
+        {
+          "html": "<p>Retournons la cathédrale et regardons-la par en dessous. Le plan dessine une croix latine, longue de 145 m.</p>",
+          "view": { "x": 0.5, "y": 0.5, "scale": 1 }
+        },
+        {
+          "html": "<p>À l’ouest, la nef, avec le labyrinthe au milieu de son dallage.</p>",
+          "view": { "x": 0.3, "y": 0.47, "scale": 2.2 },
+          "marks": [{ "label": "Labyrinthe", "x": 0.325, "y": 0.49 }, { "label": "Nef", "x": 0.2, "y": 0.4 }]
+        },
+        {
+          "html": "<p>Au centre, le transept croise la nef. Au nord, sa rose ; au sud, le portail de la Vierge dorée.</p>",
+          "view": { "x": 0.52, "y": 0.45, "scale": 1.8 },
+          "marks": [{ "label": "Croisée du transept", "x": 0.5, "y": 0.5 }, { "label": "Bras nord", "x": 0.56, "y": 0.27 }]
+        },
+        {
+          "html": "<p>À l’est, le chœur, réservé au clergé, et la couronne des chapelles rayonnantes.</p>",
+          "view": { "x": 0.72, "y": 0.58, "scale": 1.9 },
+          "marks": [{ "label": "Chœur", "x": 0.66, "y": 0.55 }, { "label": "Chapelles rayonnantes", "x": 0.76, "y": 0.7 }]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "before": "media/amiens/coupe-nord-1.jpg",
+      "after": "media/amiens/coupe-nord-2.jpg",
+      "beforeLabel": "Côté nord",
+      "afterLabel": "En coupe",
+      "caption": "Le flanc nord, puis la même vue sans ses murs : la charpente apparaît au-dessus des voûtes. Images : Myles Zhang."
+    },
+    {
+      "type": "figure",
+      "image": "media/amiens/charpente.jpg",
+      "caption": "Dans les combles : la charpente vue de l’intérieur. Image : Myles Zhang."
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        { "image": "media/amiens/voutes.jpg", "caption": "Les voûtes vues d’en haut, toiture retirée." },
+        { "image": "media/amiens/maquette-coupe.jpg", "caption": "Le plan, vu en coupe par-dessus." }
+      ]
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>À propos des images.</strong> Les vues, animations et le modèle 3D de cette fiche sont l’œuvre de Myles Zhang, réalisés avec l’historien de l’art Stephen Murray (Columbia University), et reproduits avec autorisation.</p>"
+    },
+    { "type": "outro", "title": "Levez les yeux", "text": "Dans la nef, cherchez le labyrinthe au sol, puis suivez les piliers jusqu’à la voûte : 42,30 m plus haut, le chantier de 1220 tient toujours." },
+    {
+      "type": "info",
+      "sources": [
+        { "label": "Myles Zhang · Amiens Cathedral Construction Sequences", "url": "https://myleszhang.org/2017/05/16/amiens/" },
+        { "label": "Modèle 3D · Amiens Cathedral Nave (Sketchfab)", "url": "https://sketchfab.com/3d-models/amiens-cathedral-nave-3d944f2eac0a4dd8956bfd45eb0868b8" },
+        { "label": "Columbia University · Amiens, Art Humanities", "url": "http://projects.mcah.columbia.edu/amiens-arthum/cathedral-construction-sequence" },
+        { "label": "Wikipédia · Cathédrale Notre-Dame d’Amiens", "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_d%27Amiens" }
+      ]
+    }
+  ]
+}

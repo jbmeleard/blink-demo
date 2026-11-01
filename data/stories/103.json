@@ -1,0 +1,13 @@
+{
+  "id": 103,
+  "theme": "light",
+  "blocks": [
+    { "type": "hero", "variant": "article", "image": "media/fort-cover.jpg", "kicker": "Édifice religieux", "title": "Église du Fort", "credit": "Les ruines aujourd’hui, face à la mer." },
+    { "type": "text", "dropcap": true, "html": "<p>Dès 1640, le quartier du Fort possède une église paroissiale dédiée aux apôtres Pierre et Paul. En 1646, le père Maurile de Saint-Michel décrit une église « en manière de grange », sans doute en bois. Les jésuites la desservent jusqu’en 1763, les capucins jusqu’en 1819, puis le clergé séculier jusqu’en 1902.</p>" },
+    { "type": "figure", "image": "media/fort-1.jpg", "caption": "Les escaliers et les fûts de colonnes effondrés." },
+    { "type": "text", "html": "<p>Rebâtie en maçonnerie au XVIIe siècle, elle est profondément transformée à la fin du XIXe siècle. La nef est élargie et ses murs porteurs sont remplacés par des colonnes. Une voûte en berceau couvre l’ensemble, et une façade baroque à trois niveaux domine désormais la ville.</p><p>Le 8 mai 1902, l’église accueillait des dizaines de premiers communiants au moment de l’éruption.</p>" },
+    { "type": "figure", "image": "media/fort-2.jpg", "size": "narrow", "caption": "Le clocher de l’église du Fort, carte postale ancienne." },
+    { "type": "text", "html": "<p>Il en reste d’énormes masses de maçonnerie et les escaliers menant à l’entrée principale et aux bas-côtés. L’escalier central, celui de la nef, est le plus imposant.</p>" },
+    { "type": "info", "sources": [ { "label": "Monumentum, PA00105951", "url": "https://monumentum.fr/monument-historique/pa00105951/saint-pierre-eglise-du-fort" }, { "label": "Wikipédia, Église du Fort de Saint-Pierre", "url": "https://fr.wikipedia.org/wiki/%C3%89glise_du_Fort_de_Saint-Pierre" } ] }
+  ]
+}
