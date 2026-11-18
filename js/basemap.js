@@ -1,0 +1,1 @@
+import{mapStyle as r}from"./map-style.js";function p(e,o={}){const t=L.map(e,{zoomControl:!1,attributionControl:!0,maxZoom:19,...o});return L.maplibreGL({style:r,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · <a href="https://openfreemap.org">OpenFreeMap</a>'}).addTo(t),t.attributionControl.setPrefix(!1),t}export{p as createBaseMap};

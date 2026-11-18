@@ -1,0 +1,69 @@
+{
+  "id": 310,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_ile_olive_deversoir_01_deversoir_carre_6b6ab1eaf9.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 10",
+      "title": "Le déversoir et l'île Olive",
+      "subtitle": "Le point de vue peint par Joseph Vernet au XVIIIe siècle, puis l'île de 3 hectares léguée par le docteur Olive, chère à Flaubert et dotée d'un arboretum.",
+      "credit": "Le déversoir — © musée Camille Claudel"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Le musée Camille Claudel conserve un tableau de Claude-Joseph Vernet (1714-1789) représentant les bords de Seine à Nogent-sur-Seine au XVIIIe siècle. On y aperçoit l'extrémité de l'île Olive, le déversoir et au loin, la tour de l'église Saint-Laurent. Pour son tableau, Vernet a choisi le point de vue le plus caractéristique de la Seine nogentaise, avec sa large chute d'eau et la dénivellation qu'elle crée dans le cours du fleuve. Le déversoir est aussi aujourd'hui l'un des points d'accès à l'île Olive.</p><p>L'île a été baptisée en hommage au docteur Olive, maire de Nogent-sur-Seine de 1884 à 1885, disparu dans les premiers mois de son mandat et donateur de cet espace naturel à la commune. Il a légué sa propriété anciennement dénommée « île Collet » à condition qu'elle serve uniquement et pour toujours de lieu de promenade, qu'elle ne soit ni louée, ni vendue et qu'on n'y construise ni débit de boisson, ni cabines de bain.</p><p>Dans L'Education sentimentale de Gustave Flaubert, Frédéric Moreau y trouve un lieu de promenade propice à ses réflexions philosophiques et ses discussions avec la jeune Louise. L'île Olive compte parmi les sept lieux intégrés au parcours de promenade dans la ville « sur les pas de Flaubert ». Aujourd'hui l'île Olive est un lieu de promenade privilégié pour les Nogentais. Elle abrite un arboretum comprenant une vingtaine de panneaux décrivant les différentes essences locales qui agrémentent cette île de 3 hectares.</p>"
+    },
+    {
+      "type": "compare",
+      "before": "media/cms/nogent_ile_olive_deversoir_06_deversoir_carte_postale_ac4bfc64ce.jpg",
+      "after": "media/cms/nogent_ile_olive_deversoir_01_deversoir_carre_6b6ab1eaf9.jpg",
+      "beforeLabel": "Autrefois",
+      "afterLabel": "Aujourd'hui",
+      "credit": "Le déversoir (carte postale) — Arch. Dép. Aube 8 FI 6082 · Le déversoir — © musée Camille Claudel"
+    },
+    {
+      "type": "figure",
+      "image": "media/cms/nogent_ile_olive_deversoir_05_vernet_le_livon_12dad0e674.jpg",
+      "caption": "Joseph Vernet, Le Livon, 1764, MCC, achat avec le soutien du FRAM — © Yves Bourel"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_ile_olive_deversoir_04_deversoir_ae880d0a2e.jpg",
+          "caption": "Le déversoir — © musée Camille Claudel"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>L'artiste</strong></p><p><strong>Claude-Joseph Vernet</strong> (1714-1789). Peintre spécialisé dans les marines. Une commande de Louis XV pour représenter les ports de France lui assura une grande notoriété ; ses tableaux constituent une véritable documentation sur la société et les ports de l'époque.</p>"
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "Comparer la vue réelle avec le tableau de Vernet : chute d'eau, pointe de l'île, tour de Saint-Laurent — L'arboretum et ses panneaux"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> Accès libre</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

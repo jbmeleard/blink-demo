@@ -1,0 +1,95 @@
+{
+  "id": 304,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_theatre_01_facade_theatre_0ad5f350ef.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 4",
+      "title": "La façade du théâtre",
+      "subtitle": "Façade sculptée par Marius Ramus avec son élève Alfred Boucher, alors âgé de 16 ans : ses mascarons rappellent la fonction du lieu.",
+      "credit": "Façade du théâtre — © Didier Guy"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Au début du XIXe siècle, un théâtre a été aménagé dans l'ancien grenier à sel de Nogent-sur-Seine, situé près de l'actuelle mairie. Puis, après avoir envisagé une rénovation finalement jugée trop coûteuse, un nouveau théâtre a été construit de 1866 à 1868. Marius Ramus a été chargé du décor sculpté et a mis à contribution son jeune élève Alfred Boucher, alors âgé de 16 ans.</p><p>Dans la seconde moitié du XIXe siècle, les chantiers de sculpture décorative se sont multipliés à la faveur de la construction de nombreux édifices publics. La sculpture architecturale était souvent l'occasion pour les jeunes sculpteurs d'apprendre leur métier en le pratiquant sur des motifs relativement simples.</p><p>Prenez le temps de détailler la façade et ses décors : l'œil est attiré par les mascarons. Il s'agit de visages présentés de face, souvent grimaçants, emblématiques de la sculpture architecturale depuis l'Antiquité. Ils sont généralement placés au milieu des linteaux des ouvertures ou à la base des balcons. Le mot vient de l'italien mascherone, qui signifie « masque grotesque ». Sur un théâtre comme ici, les mascarons renvoient aussi à la fonction du lieu.</p><p>On ne sait pas précisément ce qui est de la main de Ramus ou de Boucher sur cette façade. La participation de Boucher à ce chantier municipal a pu inciter favorablement la commune de Nogent-sur-Seine à offrir une bourse d'étude au jeune homme, avec l'appui de Paul Dubois et Marius Ramus.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1866",
+          "text": "Début de la construction"
+        },
+        {
+          "year": "1868",
+          "text": "Achèvement"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "before": "media/cms/nogent_theatre_04_theatre_carte_postale_58a00b6f0a.jpg",
+      "after": "media/cms/nogent_theatre_01_facade_theatre_0ad5f350ef.jpg",
+      "beforeLabel": "Autrefois",
+      "afterLabel": "Aujourd'hui",
+      "credit": "Le théâtre de Nogent-sur-Seine — Arch. Dép. Aube 8 FI 6069 · Façade du théâtre — © Didier Guy"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_theatre_03_mascaron_1_cbb474a731.jpg",
+          "caption": "Mascaron du théâtre — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_theatre_05_plafond_theatre_3906e9ed5c.jpg",
+          "caption": "Le plafond du théâtre — © Ville de Nogent-sur-Seine"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>Les artistes</strong></p><p><strong>Marius Ramus</strong> (1805-1888). Sculpteur d'origine provençale, auteur de portraits et de statues funéraires, mythologiques ou allégoriques, et de nombreuses commandes pour des églises et monuments parisiens. Installé en 1845 à Nogent-sur-Seine, il y forma le jeune Alfred Boucher.</p><p><strong>Alfred Boucher</strong> (1850-1934). D'origine modeste, remarqué à Nogent par Marius Ramus et Paul Dubois qui l'aidèrent à étudier à Paris. Premier professeur de Camille Claudel, fondateur de la cité d'artistes La Ruche à Paris et à l'origine du musée de Nogent-sur-Seine.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_artistes_01_marius_ramus_autoportrait_a5eb3a2e69.jpg",
+          "caption": "Marius Ramus, Autoportrait, vers 1885 — Prêt du musée Granet, Aix-en-Provence © Marco Illuminati"
+        },
+        {
+          "image": "media/cms/nogent_artistes_03_alfred_boucher_photo_599a0e8c97.jpg",
+          "caption": "Wilhelm Benque, Alfred Boucher — © musée Camille Claudel"
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "Les mascarons au milieu des linteaux et à la base des balcons"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> Façade visible depuis l'espace public</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": 309,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_pavillon_henri_iv_01_pavillon_carre_4dd0609783.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 9",
+      "title": "Le pavillon Henri IV",
+      "subtitle": "Maison à pans de bois du milieu du XVIe siècle, rendez-vous de chasse d'Henri IV selon la tradition, aujourd'hui lieu d'expositions estivales.",
+      "credit": "Pavillon Henri IV — © Didier Guy"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>La tradition rapporte que cet édifice situé en bord de Seine aurait servi de rendez-vous de chasse au roi Henri IV (1553-1610), mais également de lieu de rendez-vous avec sa maîtresse Gabrielle d'Estrées. Idéalement situé au carrefour du chemin de halage et de la route de Villenauxe, il est plus probable que le pavillon ait servi d'auberge ou de relais pour les mariniers.</p><p>Classé monument historique en 1932, le pavillon Henri IV constitue un exemple remarquable de l'architecture du milieu du XVIe siècle, avec ses pans de bois en croix de Saint-André, ses encorbellements, et ses toitures en pavillons percées de lucarnes. C'est l'un des sites les plus pittoresques de la commune et probablement le lieu le plus représenté par les artistes.</p><p>Propriété privée jusqu'en 1980 puis laissé à l'abandon, le pavillon a été acquis par la commune en 1988. Celle-ci a entrepris des travaux de restauration en 2000, avec l'aide financière du conseil général de l'Aube et du ministère de la Culture. Ces travaux ont permis de mieux comprendre l'histoire de cette maison et d'assurer la pérennité d'une demeure qui fait partie du patrimoine historique et architectural de la ville.</p><p>Aujourd'hui espace d'exposition, le service Culture de Nogent-sur-Seine y met en place, chaque été, une programmation diversifiée valorisant artistes et associations locales.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1932",
+          "text": "Classement monument historique"
+        },
+        {
+          "year": "1988",
+          "text": "Acquisition par la commune"
+        },
+        {
+          "year": "2000",
+          "text": "Restauration"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "before": "media/cms/nogent_pavillon_henri_iv_05_pavillon_carte_postale_4de50a3ad1.jpg",
+      "after": "media/cms/nogent_pavillon_henri_iv_02_pavillon_henri_iv_6df23a5fa7.jpg",
+      "beforeLabel": "Autrefois",
+      "afterLabel": "Aujourd'hui",
+      "credit": "Le pavillon Henri IV (carte postale) — Arch. Dép. Aube 8 FI 6064 · Le pavillon Henri IV — © Didier Guy"
+    },
+    {
+      "type": "figure",
+      "image": "media/cms/nogent_pavillon_henri_iv_04_crepuscule_vaysse_20bbde0052.jpg",
+      "caption": "Léonce Vaÿsse, Crépuscule, le pavillon Henri IV à Nogent-sur-Seine, 1913, MCC, don de L. Vaÿsse — © Yves Bourel"
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>L'artiste</strong></p><p><strong>Léonce Vaÿsse</strong> (1844-1917). Peintre de paysages de terroir, notamment champenois. Il a légué plusieurs dizaines d'œuvres au musée Dubois-Boucher, devenu musée Camille Claudel.</p>"
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "Les pans de bois en croix de Saint-André — Les encorbellements et les lucarnes"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> Expositions l'été (service Culture de la ville)</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

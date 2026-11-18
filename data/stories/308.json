@@ -1,0 +1,115 @@
+{
+  "id": 308,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_piete_filiale_01_piete_filiale_9aa1f7a9a3.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 8",
+      "title": "La Piété filiale",
+      "subtitle": "Péro nourrissant au sein son père Cimon condamné à mourir de faim : l'œuvre qui valut à Boucher le prix du Salon de 1881.",
+      "credit": "Alfred Boucher, La Piété filiale, 1881 — © Ville de Nogent-sur-Seine"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Voici une scène bien étrange à première vue ! Elle représente un épisode de l'histoire romaine, où le vieillard Cimon, emprisonné et condamné à mourir de faim, est sauvé par sa fille Péro, qui le nourrit au sein. En 1881, Alfred Boucher a présenté au Salon des Artistes Français le plâtre de cette sculpture, alors intitulée L'Amour filial. Ce fut un triomphe puisque Boucher a remporté le prix du Salon, grâce auquel il a obtenu une bourse pour repartir étudier en Italie. Cette œuvre est caractéristique de l'artiste, par la manière dont elle mêle naturalisme et idéalisation : vous pouvez apprécier le réalisme du corps vieilli et amaigri du père, auquel fait face le visage idéalisé de la jeune femme. Celui-ci est inspiré du visage de La Charité de Paul Dubois, à qui Alfred Boucher a ainsi rendu un discret hommage. Les critiques de l'époque ont loué la manière sobre et pudique dont le sculpteur a su figurer une histoire qu'ils trouvent édifiante sur le plan moral mais délicate à représenter…</p><p>Un exemplaire en bronze a été offert par le sculpteur à la ville de Nogent-sur-Seine en reconnaissance de l'aide qu'elle lui avait apportée pendant ses années de formation. Il a été fondu pendant la Seconde guerre mondiale dans le cadre de la campagne de récupération de métaux non ferreux par l'occupant. Une nouvelle épreuve a été tirée du plâtre original en 2000 et placée dans le jardin de l'ancien musée, puis, en 2020, réinstallée à son emplacement d'origine, sur la place des Martyrs-de-la-Résistance, entre les ponts Saint-Edme et Saint-Nicolas.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1881",
+          "text": "Plâtre présenté au Salon (prix du Salon)"
+        },
+        {
+          "year": "2000",
+          "text": "Nouvelle fonte d'après le plâtre original"
+        },
+        {
+          "year": "2020",
+          "text": "Réinstallation à l'emplacement d'origine"
+        }
+      ]
+    },
+    {
+      "type": "sequence",
+      "frames": [
+        "media/cms/nogent_piete_filiale_03_piete_filiale_carte_postale_2d14f3a1da.jpg",
+        "media/cms/nogent_piete_filiale_04_enlevement_guerre_eaf02e2234.jpg",
+        "media/cms/nogent_piete_filiale_01_piete_filiale_9aa1f7a9a3.jpg"
+      ],
+      "crossfade": true,
+      "fit": "contain",
+      "zoom": 1.15,
+      "labels": [
+        "Autrefois",
+        "Pendant la guerre",
+        "Aujourd'hui"
+      ],
+      "credit": "Arch. Dép. Aube 8 FI 6155 · arch. du musée Camille Claudel · © Ville de Nogent-sur-Seine",
+      "steps": [
+        {
+          "html": "<p>La Piété filiale (carte postale)</p>"
+        },
+        {
+          "html": "<p>Enlèvement de la Piété filiale pendant la guerre</p>"
+        },
+        {
+          "html": "<p>Alfred Boucher, La Piété filiale, 1881</p>"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_piete_filiale_05_piete_filiale_detail_618c480245.jpg",
+          "caption": "Alfred Boucher, La Piété filiale, détail — © musée Camille Claudel"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>Les artistes</strong></p><p><strong>Alfred Boucher</strong> (1850-1934). D'origine modeste, remarqué à Nogent par Marius Ramus et Paul Dubois qui l'aidèrent à étudier à Paris. Premier professeur de Camille Claudel, fondateur de la cité d'artistes La Ruche à Paris et à l'origine du musée de Nogent-sur-Seine.</p><p><strong>Paul Dubois</strong> (1829-1905). Fils d'un notable nogentais, devenu sculpteur tardivement. Formé en Italie, passionné par la Renaissance, il devint chef de file des néo-florentins et dirigea les Beaux-Arts de Paris pendant près de trente ans.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_artistes_03_alfred_boucher_photo_599a0e8c97.jpg",
+          "caption": "Wilhelm Benque, Alfred Boucher — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_artistes_02_paul_dubois_par_gemito_7267e282e4.jpg",
+          "caption": "Vincenzo Gemito, Portrait de Paul Dubois, 1879, MCC — © Marco Illuminati"
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "Le contraste entre le corps amaigri du père et le visage idéalisé de Péro"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> Accès libre (espace public)</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

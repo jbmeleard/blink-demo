@@ -1,0 +1,91 @@
+{
+  "id": 303,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_monument_aux_morts_02_monument_aux_morts_4dc32ea42c.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 3",
+      "title": "Le monument aux morts : On ne passe pas",
+      "subtitle": "Un double monument d'Alfred Boucher : la sentinelle On ne passe pas face au Nord-Est, et au revers Le dernier Baiser de la patrie, modelés en ciment de fer.",
+      "credit": "Alfred Boucher, Le Monument aux morts de Nogent-sur-Seine, 1921 — © Ville de Nogent-sur-Seine"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Inauguré en 1921, le monument aux morts, situé symboliquement sur la place d'armes, a été offert à la ville par son auteur, Alfred Boucher.</p><p>Faites le tour du monument : vous découvrez, d'une part, un soldat, nommé On ne passe pas, tourné vers le Nord-Est et la frontière allemande, et, d'autre part, Le dernier Baiser de la patrie.</p><p>La figure On ne passe pas est connue dès 1913, avant même que la guerre ait commencé. Elle a été intégrée par Boucher dans plusieurs monuments aux morts, où elle devient une sentinelle gardant le souvenir des soldats morts. Drapé dans une grande cape, coiffé d'un casque et appuyé sur son fusil, ce poilu forme une masse imposante, qui fait écho au titre de l'œuvre. La silhouette est réduite à l'essentiel. Seul le visage surgissant du manteau anime cette œuvre austère. C'est probablement le portrait du docteur Reymond, ami de l'artiste tué pendant la guerre.</p><p>L'autre face du monument insiste sur le tragique de la guerre, faisant d'une femme embrassant son fils mourant, Le dernier Baiser de la patrie. Ce groupe reprend les codes iconographiques de la Pietà. Boucher propose une œuvre sobre et retenue, où le silence de la sentinelle répond à la douleur muette de la mère pleurant son fils.</p><p>Approchez-vous pour observer le matériau : il s'agit de ciment de fer, ou ciment à prise rapide. Alfred Boucher a fait preuve de modernité en utilisant cette technique récemment inventée. Le sculpteur, pourtant déjà âgé, a modelé l'œuvre à la spatule en quelques heures seulement.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1913",
+          "text": "Première version de la figure On ne passe pas"
+        },
+        {
+          "year": "1921",
+          "text": "Inauguration du monument, offert par Alfred Boucher"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "before": "media/cms/nogent_monument_aux_morts_05_inauguration_1921_fbe0d94be9.jpg",
+      "after": "media/cms/nogent_monument_aux_morts_02_monument_aux_morts_4dc32ea42c.jpg",
+      "beforeLabel": "1921",
+      "afterLabel": "Aujourd'hui",
+      "credit": "G. Lacoste, Inauguration du monument aux morts de Nogent-sur-Seine, 1921 — coll. part. · Alfred Boucher, Le Monument aux morts de Nogent-sur-Seine, 1921 — © Ville de Nogent-sur-Seine"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_monument_aux_morts_04_on_ne_passe_pas_7ff2f9d903.jpg",
+          "caption": "Alfred Boucher, On ne passe pas, 1920 — © Ville de Nogent-sur-Seine"
+        },
+        {
+          "image": "media/cms/nogent_monument_aux_morts_06_dernier_baiser_1f0ffa22f2.jpg",
+          "caption": "Alfred Boucher, Le dernier Baiser de la patrie, 1920 — © musée Camille Claudel"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>L'artiste</strong></p><p><strong>Alfred Boucher</strong> (1850-1934). D'origine modeste, remarqué à Nogent par Marius Ramus et Paul Dubois qui l'aidèrent à étudier à Paris. Premier professeur de Camille Claudel, fondateur de la cité d'artistes La Ruche à Paris et à l'origine du musée de Nogent-sur-Seine.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_artistes_03_alfred_boucher_photo_599a0e8c97.jpg",
+          "caption": "Wilhelm Benque, Alfred Boucher — © musée Camille Claudel"
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "Faire le tour du monument pour découvrir ses deux faces — Le visage du soldat surgissant de la cape (probable portrait du docteur Reymond) — Le matériau : ciment de fer modelé à la spatule"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> Accès libre (espace public)</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

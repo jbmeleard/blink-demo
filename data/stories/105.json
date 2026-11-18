@@ -1,0 +1,177 @@
+{
+  "id": 105,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/theatre_cover_f45aa77edc.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Spectacle",
+      "title": "Le théâtre de Saint-Pierre",
+      "credit": "Les ruines du théâtre après 1902."
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Inauguré le 16 décembre 1786, le théâtre impressionne le médecin danois Paul Erdmann Isert. Celui-ci le juge supérieur « pour la grandeur et le goût » aux plus renommés d’Europe. Endommagé par les cyclones, il est restauré en 1817, remanié en 1831-1832, puis rouvert en décembre 1890.</p>"
+    },
+    {
+      "type": "quote",
+      "text": "Ce magnifique théâtre surpasse pour la grandeur et le goût les bâtiments en ce genre les plus renommés en Europe.",
+      "cite": "Paul Erdmann Isert, 1787"
+    },
+    {
+      "type": "text",
+      "html": "<p>Opéras, ballets et troupes internationales s’y produisent, de Beaumarchais à Sedaine, aux côtés d’auteurs locaux. La salle reflète aussi la société coloniale : une rangée de loges est réservée aux gens de couleur libres, et les esclaves occupent le dernier pourtour.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/theatre_1_88e34664bc.jpg",
+          "caption": "Les escaliers en fer à cheval et la fontaine, aujourd’hui."
+        },
+        {
+          "image": "media/cms/theatre_2_60efa56c5a.jpg",
+          "caption": "Les vestiges de la salle."
+        },
+        {
+          "image": "media/cms/theatre_3_e2943206ff.jpg",
+          "caption": "Le théâtre avant le 8 mai 1902, carte postale."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p>Le 8 mai 1902, la nuée ardente le détruit. Il en reste les volées de marches depuis la rue Victor-Hugo, la fontaine aux deux dauphins de bronze, le vestibule dallé de marbre noir et blanc, le parterre en demi-cercle et la fosse d’orchestre.</p>"
+    },
+    {
+      "type": "etats3d",
+      "steps": [
+        {
+          "view": {
+            "fov": 50,
+            "pos": [
+              0,
+              1.8,
+              23
+            ],
+            "look": [
+              0,
+              5.2,
+              4
+            ]
+          },
+          "state": 0,
+          "html": "<p><strong>8 mai 1902.</strong> La nuée ardente ne laisse du théâtre qu’un champ de cendres et de gravats, au pied du morne.</p>"
+        },
+        {
+          "view": {
+            "fov": 45,
+            "pos": [
+              -5,
+              3.2,
+              12
+            ],
+            "look": [
+              0,
+              1.8,
+              3.6
+            ]
+          },
+          "marks": [
+            {
+              "at": [
+                0,
+                2.6,
+                3.4
+              ],
+              "label": "Mur de la fontaine"
+            }
+          ],
+          "state": 0,
+          "html": "<p>Seuls émergent le mur de la fontaine et les murs de la cour qui encadraient l’escalier. Les grilles tordues gisent sur le parvis.</p>"
+        },
+        {
+          "view": {
+            "fov": 50,
+            "pos": [
+              -10.5,
+              6,
+              21.5
+            ],
+            "look": [
+              0.5,
+              1.5,
+              6.5
+            ]
+          },
+          "state": 1,
+          "html": "<p><strong>Aujourd’hui.</strong> Dégagées, les volées de marches en fer à cheval montent de nouveau depuis la rue Victor-Hugo, autour de la fontaine aux deux dauphins de bronze.</p>"
+        },
+        {
+          "view": {
+            "fov": 45,
+            "pos": [
+              -9,
+              22,
+              10
+            ],
+            "look": [
+              1,
+              4,
+              -22
+            ]
+          },
+          "state": 1,
+          "html": "<p>Plus haut s’étendent les vestiges : le vestibule, puis la salle, son parterre en demi-cercle et la fosse d’orchestre.</p>"
+        },
+        {
+          "view": {
+            "fov": 45,
+            "pos": [
+              22,
+              19.5,
+              37
+            ],
+            "look": [
+              -2,
+              7,
+              -6
+            ]
+          },
+          "state": 2,
+          "html": "<p><strong>Avant 1902.</strong> L’escalier menait à une galerie de sept arcades, sous un étage de balcons et l’attique portant le mot « Théâtre ».</p>"
+        }
+      ],
+      "style": "siponto",
+      "models": [
+        "media/theatre-3d/theatre-1902.glb",
+        "media/theatre-3d/theatre-actuel.glb",
+        "media/theatre-3d/theatre-avant.glb"
+      ],
+      "footprint": [
+        -14.55,
+        14.55,
+        -40.35,
+        10.1
+      ],
+      "credit": "Modèles 3D d'après les cartes postales (vers 1900), les photographies de 1902 et l'état actuel",
+      "fallback": "media/cms/theatre_3_e2943206ff.jpg"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Monumentum, PA00105981",
+          "url": "https://monumentum.fr/monument-historique/pa00105981"
+        }
+      ]
+    }
+  ]
+}

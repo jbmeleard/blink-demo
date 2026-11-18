@@ -1,0 +1,19 @@
+{
+  "id": "gt-1",
+  "theme": "light",
+  "title": "Le Mouillage, quartier du port",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-rade.jpg",
+      "kicker": "Liaison",
+      "title": "Le Mouillage, quartier du port",
+      "credit": "Vue générale de Saint-Pierre avant l’éruption de 1902. Carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>En sortant de l’église, tournez-vous vers la mer. Le quartier du Mouillage doit son nom à la rade où jetaient l’ancre les navires de commerce.</p><p>Avant 1902, Saint-Pierre est la capitale économique de la Martinique. Sucre, rhum et cacao partent d’ici vers l’Europe, et les marchandises importées arrivent sur les quais.</p><p>À quelques pas, la place Bertin concentrait ce négoce. C’est là que vous attend la Chambre de commerce.</p>"
+    }
+  ]
+}

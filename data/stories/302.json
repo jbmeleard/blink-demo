@@ -1,0 +1,97 @@
+{
+  "id": 302,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_musee_camille_claudel_01_musee_carre_7ac324376b.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 2",
+      "title": "… au musée Camille Claudel",
+      "subtitle": "La plus riche collection publique consacrée à Camille Claudel, ouverte en 2017 autour de la maison où elle vécut adolescente.",
+      "credit": "Le musée Camille Claudel — © Marco Illuminati"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Nommé conservateur en 1978, Jacques Piette a entrepris un travail colossal d'inventaire, d'étude, de restauration et de mise en valeur de l'ensemble des collections. Les bâtiments ont été rénovés et la galerie de sculpture restaurée inaugurée en 1995.</p><p>En 2003, une exposition Camille Claudel organisée à Nogent-sur-Seine a remporté un immense succès, qui a fait naître l'idée de donner une nouvelle ambition au musée Dubois-Boucher en le dotant d'un fonds Camille Claudel significatif. En 2008, la commune a acquis les collections de Reine-Marie Paris, la petite-nièce de l'artiste, et de Philippe Cressent et constitué la plus riche collection publique consacrée à la sculptrice. La même année, Persée et la Gorgone, son seul marbre monumental, a été acquis grâce au mécénat d'entreprises et à la participation de l'État. Enfin, en 2008 toujours, la Ville a acheté la maison où avait vécu la jeune fille avec ses parents. Les bases du futur musée Camille Claudel étaient dès lors posées. Yves Bourel puis, à partir de 2012, Françoise Magny, ont conçu un projet alliant la présentation de la carrière de l'artiste éponyme à sa contextualisation grâce au fonds du musée Dubois-Boucher et à une soixantaine de dépôts accordés par quinze institutions différentes. Le musée Camille Claudel, dont l'écrin a été conçu par l'architecte Adelfo Scaranello, a ouvert ses portes en mars 2017.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1978",
+          "text": "Jacques Piette conservateur : inventaire et restauration des collections"
+        },
+        {
+          "year": "2003",
+          "text": "Exposition Camille Claudel à Nogent"
+        },
+        {
+          "year": "2008",
+          "text": "Acquisition des collections Reine-Marie Paris et Philippe Cressent, de Persée et la Gorgone, et de la maison Claudel"
+        },
+        {
+          "year": "2017",
+          "text": "Ouverture du musée (architecte Adelfo Scaranello)"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "image": "media/cms/nogent_musee_camille_claudel_02_jeune_fille_lisant_9f1d51cd7d.jpg",
+          "caption": "Alfred Boucher, Jeune fille lisant, 1879, MCC — © Marco Illuminati"
+        },
+        {
+          "image": "media/cms/nogent_musee_camille_claudel_07_la_valse_5f2ecac876.jpg",
+          "caption": "Camille Claudel, La Valse, vers 1893, MCC — © Marco Illuminati"
+        },
+        {
+          "image": "media/cms/nogent_musee_camille_claudel_05_salle_du_musee_64e579d6f5.jpg",
+          "caption": "Salle du musée Camille Claudel — © Marco Illuminati"
+        },
+        {
+          "image": "media/cms/nogent_musee_camille_claudel_06_ancienne_maison_claudel_1b08532746.jpg",
+          "caption": "Ancienne maison Claudel — © Marco Illuminati"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>Les artistes</strong></p><p><strong>Camille Claudel</strong> (1864-1943). A vécu à Nogent-sur-Seine de 1876 à 1879 et y a modelé ses premières œuvres, aujourd'hui perdues. Elève d'Alfred Boucher, qui fut à l'origine de sa rencontre avec Auguste Rodin.</p><p><strong>Alfred Boucher</strong> (1850-1934). D'origine modeste, remarqué à Nogent par Marius Ramus et Paul Dubois qui l'aidèrent à étudier à Paris. Premier professeur de Camille Claudel, fondateur de la cité d'artistes La Ruche à Paris et à l'origine du musée de Nogent-sur-Seine.</p><p><strong>Paul Dubois</strong> (1829-1905). Fils d'un notable nogentais, devenu sculpteur tardivement. Formé en Italie, passionné par la Renaissance, il devint chef de file des néo-florentins et dirigea les Beaux-Arts de Paris pendant près de trente ans.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_artistes_04_camille_claudel_14_ans_ab781f70a5.jpg",
+          "caption": "Eugène Chéron, Camille Claudel âgée de 14 ans — coll. part."
+        },
+        {
+          "image": "media/cms/nogent_artistes_03_alfred_boucher_photo_599a0e8c97.jpg",
+          "caption": "Wilhelm Benque, Alfred Boucher — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_artistes_02_paul_dubois_par_gemito_7267e282e4.jpg",
+          "caption": "Vincenzo Gemito, Portrait de Paul Dubois, 1879, MCC — © Marco Illuminati"
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

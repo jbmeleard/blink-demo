@@ -1,0 +1,98 @@
+{
+  "id": 301,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_ancien_musee_dubois_boucher_01_musee_dubois_boucher_0f79866c53.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 1",
+      "title": "Du musée Dubois-Boucher…",
+      "subtitle": "Fondé en 1902 par Alfred Boucher, le premier musée de Nogent s'affirme dès 1905 comme un musée de sculpture grâce à sa galerie accueillant des œuvres monumentales.",
+      "credit": "Le musée Dubois-Boucher — © Marco Illuminati"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Comblé de commandes et de distinctions, vivant entre Aix-les-Bains et Paris, Alfred Boucher n'a cependant jamais oublié la ville où il avait grandi et, en 1902, il a été à l'origine de la création du musée de Nogent-sur-Seine. Celui-ci renfermait alors un fonds de sculptures significatif mais aussi toutes sortes d'objets donnés par des artistes, leur famille, des collectionneurs ou déposés par l'Etat : tableaux, dessins, gravures, antiques, médailles, monnaies, céramiques…</p><p>En 1902, le musée a d'abord été installé au rez-de-chaussée du « Château », une ancienne demeure acquise par la municipalité en 1899. Puis, en 1905, une ancienne remise située en contrebas a été transformée en galerie de sculpture permettant d'accueillir des œuvres aussi monumentales que la Jeanne d'Arc de Paul Dubois ou le Monument au docteur Ollier d'Alfred Boucher. Cette extension a contribué à positionner l'établissement comme un musée de sculpture, même si les fonds de peinture et d'archéologie ont continué à s'enrichir jusqu'à la Seconde guerre mondiale. Le musée a alors été pillé et beaucoup d'œuvres du fonds d'origine ne sont plus localisées aujourd'hui.</p><p>Après-guerre, la sculpture française de la fin du XIXe et du début du XXe siècle était complètement déconsidérée et le musée est longtemps resté fermé. Il a finalement rouvert en 1974, d'abord pour présenter le riche produit des fouilles archéologiques effectuées dans le Nogentais.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1899",
+          "text": "Achat du « Château » par la municipalité"
+        },
+        {
+          "year": "1902",
+          "text": "Création du musée à l'initiative d'Alfred Boucher"
+        },
+        {
+          "year": "1905",
+          "text": "Une ancienne remise devient galerie de sculpture"
+        },
+        {
+          "year": "1974",
+          "text": "Réouverture"
+        },
+        {
+          "year": "1995",
+          "text": "Galerie restaurée inaugurée"
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "before": "media/cms/nogent_ancien_musee_dubois_boucher_04_musee_carte_postale_288b5e1b82.jpg",
+      "after": "media/cms/nogent_ancien_musee_dubois_boucher_01_musee_dubois_boucher_0f79866c53.jpg",
+      "beforeLabel": "Autrefois",
+      "afterLabel": "Aujourd'hui",
+      "credit": "Le musée Dubois-Boucher (carte postale) — coll. part. · Le musée Dubois-Boucher — © Marco Illuminati"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_ancien_musee_dubois_boucher_03_galerie_sculptures_carte_postale_3fbc053412.jpg",
+          "caption": "La galerie de sculptures du musée Dubois-Boucher — coll. part."
+        },
+        {
+          "image": "media/cms/nogent_ancien_musee_dubois_boucher_05_amour_boudeur_14cf9ad891.jpg",
+          "caption": "Amour boudeur — coll. part."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>Les artistes</strong></p><p><strong>Alfred Boucher</strong> (1850-1934). D'origine modeste, remarqué à Nogent par Marius Ramus et Paul Dubois qui l'aidèrent à étudier à Paris. Premier professeur de Camille Claudel, fondateur de la cité d'artistes La Ruche à Paris et à l'origine du musée de Nogent-sur-Seine.</p><p><strong>Paul Dubois</strong> (1829-1905). Fils d'un notable nogentais, devenu sculpteur tardivement. Formé en Italie, passionné par la Renaissance, il devint chef de file des néo-florentins et dirigea les Beaux-Arts de Paris pendant près de trente ans.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_artistes_03_alfred_boucher_photo_599a0e8c97.jpg",
+          "caption": "Wilhelm Benque, Alfred Boucher — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_artistes_02_paul_dubois_par_gemito_7267e282e4.jpg",
+          "caption": "Vincenzo Gemito, Portrait de Paul Dubois, 1879, MCC — © Marco Illuminati"
+        }
+      ]
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

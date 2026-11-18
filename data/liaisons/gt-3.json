@@ -1,0 +1,24 @@
+{
+  "id": "gt-3",
+  "theme": "light",
+  "title": "Du négoce au spectacle",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-grande-rue.jpg",
+      "kicker": "Liaison",
+      "title": "Du négoce au spectacle",
+      "credit": "Saint-Pierre de la Martinique, la Grande Rue. Carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>Après les affaires, la société pierrotine se retrouvait au théâtre, à quelques rues des entrepôts.</p><p>À côté de la salle, le grand café de la Comédie proposait un billard et un salon de lecture garni de journaux de Paris, de Londres, de la Guadeloupe et de la Martinique.</p>"
+    },
+    {
+      "type": "quote",
+      "text": "Ce magnifique théâtre surpasse pour la grandeur et le goût les bâtiments en ce genre les plus renommés en Europe.",
+      "cite": "Paul Erdmann Isert, 1787"
+    }
+  ]
+}

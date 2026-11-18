@@ -1,0 +1,19 @@
+{
+  "id": "gt-2",
+  "theme": "light",
+  "title": "La Grand’Rue",
+  "blocks": [
+    {
+      "type": "hero",
+      "variant": "article",
+      "image": "media/liaison-grandrue-enotz.jpg",
+      "kicker": "Liaison",
+      "title": "La Grand’Rue",
+      "credit": "La Grand’Rue, près de la batterie d’Enotz. Carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "html": "<p>Vous remontez l’ancienne Grand’Rue, aujourd’hui rue Victor-Hugo. Elle traversait la ville du sud au nord, parallèle au rivage, bordée de maisons à étage et de commerces.</p><p>Sur cette carte postale, la rue longe le rempart de la batterie d’Enotz. C’est au pied de ce mur que s’alignaient les entrepôts du Figuier, votre prochaine étape.</p>"
+    }
+  ]
+}

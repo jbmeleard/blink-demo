@@ -1,0 +1,36 @@
+{
+  "id": 106,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/commerce_cover_7f58ee0bef.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Négoce & port",
+      "title": "La Chambre de commerce",
+      "credit": "« Saint-Pierre — La Chambre de commerce », carte postale ancienne."
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Face à la rade, la place Bertin était le cœur marchand de Saint-Pierre, alors capitale économique de la Martinique. Les marchandises débarquées y étaient pesées, entreposées et négociées.</p><p>La Chambre de commerce, avec son horloge et ses galeries, dominait cette agitation portuaire.</p>"
+    },
+    {
+      "type": "figure",
+      "image": "media/cms/commerce_1_0971cd4cd2.jpg",
+      "caption": "La Chambre de commerce, photographie ancienne."
+    },
+    {
+      "type": "note",
+      "html": "<p>Texte provisoire, rédigé pour la démonstration : aucune notice n’accompagnait ce lieu dans les sources fournies.</p>"
+    },
+    {
+      "type": "info",
+      "sources": []
+    }
+  ]
+}

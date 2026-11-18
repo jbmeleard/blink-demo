@@ -1,0 +1,95 @@
+{
+  "id": 307,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_grands_moulins_01_grands_moulins_carre_2eeca0954f.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 7",
+      "title": "Les grands moulins",
+      "subtitle": "Une minoterie monumentale de pierre et de brique, 70 m de long et 28 m de haut, reconstruite en huit mois après l'incendie de 1907.",
+      "credit": "Les grands moulins — © Didier Guy"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Depuis le Moyen Âge, la meunerie a été une activité économique essentielle à Nogent-sur-Seine, ville située en plaine céréalière et le long d'axes de communication majeurs : la Seine vers Paris et la route traversant la Champagne entre Provins et Troyes.</p><p>En 1866, Pierre-Just Sassot, originaire de la Marne, a acquis un premier moulin près de Nogent-sur-Seine et s'est spécialisé dans le négoce de farine. Vers 1880, il a racheté celui de Nogent-sur-Seine et l'a modernisé. Ses fils Paul et Léon ont constitué la société Sassot Frères en 1892. Mais, en 1907, un incendie a ravagé les anciens moulins bâtis en partie en bois. Les frères Sassot les ont fait reconstruire en huit mois seulement. Une attention particulière a été portée à la qualité de l'architecture et au choix des matériaux. Le vaste bâtiment de pierre et de brique grise et rose surplombe l'un des bras de la Seine. Visible de loin, il mesure soixante-dix mètres de long et vingt-huit mètres de haut. Afin de se prémunir désormais contre les incendies, les Sassot ont fait installer dans la tour horloge un château d'eau relié à un réseau de lances.</p><p>Le moulin est équipé de turbines hydrauliques adaptées aux périodes de hautes et basses eaux de la Seine, marquant le passage de la meunerie traditionnelle à la minoterie. Il a cessé son activité en 1991. Il a longtemps été la propriété du groupe Soufflet qui y avait installé des bureaux et des laboratoires de recherche en biotechnologie et appartient désormais au groupe Invivo.</p>"
+    },
+    {
+      "type": "timeline",
+      "items": [
+        {
+          "year": "1866",
+          "text": "Pierre-Just Sassot acquiert un premier moulin près de Nogent"
+        },
+        {
+          "year": "1880",
+          "text": "Rachat et modernisation du moulin de Nogent"
+        },
+        {
+          "year": "1892",
+          "text": "Création de Sassot Frères"
+        },
+        {
+          "year": "1907",
+          "text": "Incendie puis reconstruction en huit mois"
+        },
+        {
+          "year": "1991",
+          "text": "Fin de l'activité"
+        }
+      ]
+    },
+    {
+      "type": "sequence",
+      "frames": [
+        "media/cms/nogent_grands_moulins_05_anciens_grands_moulins_567521a2e1.jpg",
+        "media/cms/nogent_grands_moulins_04_catastrophe_1911_27b539e300.jpg",
+        "media/cms/nogent_grands_moulins_02_grands_moulins_11b65536fa.jpg"
+      ],
+      "crossfade": true,
+      "fit": "contain",
+      "zoom": 1.15,
+      "labels": [
+        "Autrefois",
+        "1911",
+        "Aujourd'hui"
+      ],
+      "credit": "coll. part. · Arch. Dép. Aube 8 FI 6132 · © Didier Guy",
+      "steps": [
+        {
+          "html": "<p>Les anciens grands moulins et le bateau-lavoir</p>"
+        },
+        {
+          "html": "<p>La catastrophe du 31 octobre 1911</p>"
+        },
+        {
+          "html": "<p>Les grands moulins</p>"
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "La tour horloge, qui abrite un château d'eau anti-incendie — Les briques grises et roses"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> Site privé — vue depuis l'extérieur</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

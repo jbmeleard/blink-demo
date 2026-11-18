@@ -1,0 +1,98 @@
+{
+  "id": 306,
+  "theme": "light",
+  "blocks": [
+    {
+      "type": "hero",
+      "image": "media/cms/nogent_cimetiere_01_la_douleur_carre_d55c2f8f11.jpg",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "variant": "article",
+      "kicker": "Nogent-sur-Seine · Étape 6",
+      "title": "Le cimetière : sculpter pour l'éternité",
+      "subtitle": "Trois tombeaux sculptés par Alfred Boucher et Paul Dubois, entre portrait intime et figures allégoriques de la Douleur et de la Pensée.",
+      "credit": "Paul Dubois, La Douleur — © musée Camille Claudel"
+    },
+    {
+      "type": "text",
+      "dropcap": true,
+      "html": "<p>Lieu de respect, de souvenir mais aussi de promenade, le cimetière de Nogent-sur-Seine offre quelques beaux exemples de statuaire funéraire. Les familles commandaient des monuments funéraires afin de lutter contre l'oubli, qui, encore plus que la mort elle-même, était source d'angoisse pour l'homme du XIXe siècle. Les sculpteurs évoquaient le plus souvent le défunt sous la forme d'un portrait, mais également à travers des figures allégoriques comme la douleur ou l'espérance.</p><p>Deux événements majeurs ont changé le rapport à la mort au XXe siècle : le conflit de la Première guerre mondiale et les progrès de la médecine, qui impliquent que de moins en moins de personnes décèdent à leur domicile. Depuis, l'art funéraire est beaucoup moins ostentatoire et les tombes plus sobres.</p>"
+    },
+    {
+      "type": "chapter",
+      "kicker": "À voir",
+      "title": "Les œuvres"
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>Tombeau de la famille Boucher</strong> (Alfred Boucher). Pour le tombeau de son épouse Elise, Alfred Boucher a réalisé une statue en bronze la représentant assise sur une chaise, dans une attitude calme et sévère. Elle a le visage fermé, le regard porté au loin, les bras et les jambes croisés. Lorsque l'on s'approche et que l'on contourne la sépulture, on est surpris de découvrir à l'arrière du monument, émergeant du drapé de la robe, le masque mortuaire et le moulage d'un bras de la défunte. La fonte réalisée par C. Valsuani grâce à la technique de la cire perdue retranscrit parfaitement les traits de son visage : Elise Boucher s'est endormie dans un repos éternel. Au dos du siège, on trouve une dédicace signée, datée « À ma femme Elise Boucher 1850-1913 née Viat à Nogent-sur-Seine, souvenir de ma plus tendre affection Alfred Boucher statuaire 5 mars 1913 ». Le sculpteur repose aujourd'hui aux côtés de son épouse.</p><p><strong>Tombeau de la famille Dubois</strong> (Paul Dubois). Pour le tombeau de ses parents, Paul Dubois a représenté son père le regard au loin et le foulard flottant au vent. Il a ainsi réalisé un portrait intime plutôt que le buste officiel de celui qui fut maire de Nogent-sur-Seine de 1835 à 1851. On peut déceler une esquisse de sourire sur le visage, marque de sympathie et de complicité avec l'observateur. Au pied du monument, une allégorie de la Douleur s'appuie contre le haut du socle, comme si elle se recueillait près de la tombe. Elle prend les traits d'une jeune femme entièrement drapée, les yeux fermés et les mains jointes.</p><p><strong>Tombeau de la famille Sassot</strong> (Alfred Boucher). Pour ce monument, Alfred Boucher a repris la figure de La Pensée dont un marbre est exposé au musée Camille Claudel. Celle-ci est représentée endeuillée et drapée. Sous son voile, on aperçoit l'expression de son visage marqué d'une certaine tristesse. Le socle exécuté comme un rocher contribue à dramatiser la scène. L'œuvre est placée sur un sarcophage en marbre dominant la sépulture. En 1907, la famille Sassot a fait construire les grands moulins de Nogent-sur-Seine, toujours visibles aujourd'hui sur un bras du fleuve.</p>"
+    },
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "image": "media/cms/nogent_cimetiere_06_tombeau_dubois_c73cf97f66.jpg",
+          "caption": "Paul Dubois, tombeau de la famille Dubois et La Douleur — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_cimetiere_09_la_douleur_2_6535cb934d.jpg",
+          "caption": "Paul Dubois, La Douleur (tombeau Dubois) — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_cimetiere_04_portrait_elise_boucher_ce42a63769.jpg",
+          "caption": "Alfred Boucher, Portrait d'Elise Boucher — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_cimetiere_05_masque_elise_boucher_63485b1ccb.jpg",
+          "caption": "Alfred Boucher, Masque funéraire d'Elise Boucher — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_cimetiere_10_la_pensee_cb5c968cc2.jpg",
+          "caption": "Alfred Boucher, La Pensée (tombeau Sassot) — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_cimetiere_08_vue_cimetiere_tombeau_sassot_df7d07dd06.jpg",
+          "caption": "Vue du cimetière — © musée Camille Claudel"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<p><strong>Les artistes</strong></p><p><strong>Alfred Boucher</strong> (1850-1934). D'origine modeste, remarqué à Nogent par Marius Ramus et Paul Dubois qui l'aidèrent à étudier à Paris. Premier professeur de Camille Claudel, fondateur de la cité d'artistes La Ruche à Paris et à l'origine du musée de Nogent-sur-Seine.</p><p><strong>Paul Dubois</strong> (1829-1905). Fils d'un notable nogentais, devenu sculpteur tardivement. Formé en Italie, passionné par la Renaissance, il devint chef de file des néo-florentins et dirigea les Beaux-Arts de Paris pendant près de trente ans.</p>"
+    },
+    {
+      "type": "gallery",
+      "variant": "grid",
+      "items": [
+        {
+          "image": "media/cms/nogent_artistes_03_alfred_boucher_photo_599a0e8c97.jpg",
+          "caption": "Wilhelm Benque, Alfred Boucher — © musée Camille Claudel"
+        },
+        {
+          "image": "media/cms/nogent_artistes_02_paul_dubois_par_gemito_7267e282e4.jpg",
+          "caption": "Vincenzo Gemito, Portrait de Paul Dubois, 1879, MCC — © Marco Illuminati"
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "title": "À observer",
+      "text": "Contourner le tombeau Boucher pour découvrir le masque mortuaire au dos — La dédicace signée au dos du siège d'Elise Boucher"
+    },
+    {
+      "type": "note",
+      "html": "<p><strong>Accès.</strong> 9h–17h30 du 1er octobre au 31 mars ; 8h–19h30 du 1er avril au 30 septembre</p>"
+    },
+    {
+      "type": "info",
+      "sources": [
+        {
+          "label": "Échappées nogentaises, de sculptures en paysages — Ville de Nogent-sur-Seine / musée Camille Claudel, août 2023",
+          "url": "https://www.museecamilleclaudel.fr"
+        }
+      ]
+    }
+  ]
+}

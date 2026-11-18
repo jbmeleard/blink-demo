@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>QR codes BLINK</title>
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --green: #1f4d3a; --paper: #f6f1e7; --ink: #1d1a16; --ink-2: #5b544a; --line: rgba(29, 26, 22, .14); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.5 Inter, system-ui, sans-serif; }
+    header { max-width: 980px; margin: 0 auto; padding: 32px 16px 8px; }
+    h1 { font: 600 32px/1.1 Fraunces, Georgia, serif; margin: 0 0 8px; }
+    p { color: var(--ink-2); margin: 0 0 12px; max-width: 70ch; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin: 16px 0 8px; }
+    label { display: grid; gap: 4px; font-size: 13px; font-weight: 600; flex: 1 1 320px; }
+    input { height: 42px; padding: 0 12px; border: 1px solid var(--line); border-radius: 10px; font: 500 15px Inter, sans-serif; background: #fff; }
+    button { height: 42px; padding: 0 18px; border: 0; border-radius: 99px; background: var(--green); color: #fff; font: 600 15px Inter, sans-serif; cursor: pointer; }
+    .warn { font-size: 13px; color: #8a3a1a; }
+    main { max-width: 980px; margin: 0 auto; padding: 16px; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px; text-align: center; break-inside: avoid; }
+    .card svg { width: 100%; max-width: 180px; height: auto; display: block; margin: 0 auto 12px; }
+    .num { font: 600 12px Inter, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); }
+    .title { font: 600 18px/1.2 Fraunces, Georgia, serif; margin: 4px 0 6px; }
+    .brand { font-size: 12px; color: var(--green); font-weight: 600; }
+    .url { font-size: 10px; color: var(--ink-2); word-break: break-all; margin-top: 6px; }
+    @media print {
+      body { background: #fff; }
+      header { display: none; }
+      main { grid-template-columns: repeat(3, 1fr); padding: 0; }
+      .card { border-color: #ccc; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QR codes à poser sur les lieux</h1>
+    <p>Chaque QR code ouvre le contenu du POI dans l’application. Le contenu ne s’affiche que si le visiteur est dans la zone du lieu, ou si le mode démo est activé.</p>
+    <div class="controls">
+      <label>Adresse de l’application encodée dans les QR codes
+        <input id="base" type="url" spellcheck="false">
+      </label>
+      <button id="apply" type="button">Générer</button>
+      <button id="print" type="button">Imprimer</button>
+    </div>
+    <p class="warn" id="warn" hidden>Cette adresse locale ne fonctionnera pas depuis un téléphone. Pour un test sur le terrain, indiquez l’adresse HTTPS de l’application une fois en ligne. Le scanner intégré à l’application reconnaît quand même ces codes.</p>
+  </header>
+  <main id="grid"></main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+  <script>
+    const baseInput = document.getElementById('base');
+    const grid = document.getElementById('grid');
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    baseInput.value = location.href.replace(/qr\.html.*$/, '');
+
+    async function render() {
+      const base = baseInput.value.trim().replace(/#.*$/, '');
+      document.getElementById('warn').hidden = !/localhost|127\.0\.0\.1/.test(base);
+      const { pois } = await fetch('data/pois.json').then((r) => r.json());
+      grid.innerHTML = pois.map((p) => {
+        const url = `${base}#/poi/${p.id}?src=qr`;
+        const qr = qrcode(0, 'M');
+        qr.addData(url);
+        qr.make();
+        return `<article class="card">
+          ${qr.createSvgTag({ cellSize: 6, margin: 2, scalable: true })}
+          <div class="num">POI ${p.id}</div>
+          <div class="title">${esc(p.title)}</div>
+          <div class="brand">Scannez avec BLINK</div>
+          <div class="url">${esc(url)}</div>
+        </article>`;
+      }).join('');
+    }
+    document.getElementById('apply').addEventListener('click', render);
+    document.getElementById('print').addEventListener('click', () => print());
+    render();
+  </script>
+</body>
+</html>
